@@ -1,0 +1,33 @@
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+label{
+    width: 200px;
+    display: inline-block;
+    margin: 15px;
+}
+button{
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    border: 1px groove dodgerblue;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+body{
+    background: radial-gradient(red,black);
+    color: aliceblue;
+    font: large;
+    font-size: bolder;
+    text-align: center;
+    justify-content: center;
+}
+

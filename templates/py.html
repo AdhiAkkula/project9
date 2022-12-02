@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>APLLICATION FORM</title>
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+</head>
+<body>
+    <h1>APPLICATION FORM</h1>
+    <div>
+        <label for="first">FIRST NAME :</label>
+        <input type="text" id="first">
+    </div>
+    <p></p>
+    <div>
+        <label for="last">LAST NAME :</label>
+        <input type="text" id="last">
+    </div>
+    <p></p>
+    <div>
+        <label for="surname">SURNAME :</label>
+        <input type="text,mail-id,number" id="surname">
+    </div>
+    <p></p>
+    <div>
+        <label for="mail">E-MAIL ID :</label>
+        <input type="text,mail-id,number" id="mail">
+    </div>
+    <p></p>
+    <div>
+        <label for="dob">DATE-OF-BIRTH :</label>
+        <input type="date" id="DOB">
+    </div>
+    <p></p>
+    <div>
+        <label for="gender">GENDER :</label>
+        <input type="radio" name="gender choice" value="choice 1">MALE
+        <input type="radio" name="gender choice" value="choice 2">FEMALE
+        <input type="radio" name="gender choice" value="choice 3">OTHERS
+    </div>
+    <p></p>
+    <div>
+        <label for="number">MOBILE NUMBER :</label>
+        <input type="+91-10-digit" id="number">
+    </div>
+    <p></p>
+    <div>
+        <label for="location">CURRENT LOCATION:</label>
+        <input type="text" id="location">
+    </div>
+    <p></p>
+    <div id="button">
+        <button>SUBMIT</button>
+    </div>
+    <p></p>
+    <script src="{% static 'js/form.js' %}"></script>
+</body>
+</html>
